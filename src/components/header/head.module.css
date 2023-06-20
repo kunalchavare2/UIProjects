@@ -1,0 +1,63 @@
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.mainHeader .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainHeader .content {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+.mainHeader .userName {
+  font-size: 1rem;
+}
+
+.mainHeader .question {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.mainHeader .avatar {
+  width: 4rem;
+}
+
+.mainHeader .searchContainer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.mainHeader .searchIcon {
+  padding: 0 0.5rem;
+}
+.mainHeader .searchIcon i {
+  font-size: 1.3rem;
+}
+
+.mainHeader input[type="search"] {
+  flex: 2;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+}
+
+.mainHeader .filters {
+  border-left: 1px solid gray;
+  padding: 0 0.5rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
