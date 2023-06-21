@@ -1,0 +1,50 @@
+.categoryContainer {
+  margin: 0 1rem;
+}
+
+.categoryContainer .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryContainer .header .expandBtn {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #0b9a61;
+}
+
+.categoryList {
+  list-style: none;
+  display: flex;
+  overflow: scroll;
+  padding: 0.5rem 0;
+  gap: 1rem;
+}
+
+.categoryList .categoryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.categoryList .selected {
+  background-color: #0b9a61;
+}
+.selected{
+    background-color: red !important;
+}
+
+.categoryList .categoryImg {
+  width: 5rem;
+}
+
+.categoryImg img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}

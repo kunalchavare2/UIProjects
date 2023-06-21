@@ -21,6 +21,7 @@ const Head = () => {
         </div>
       </div>
       <Search />
+      
     </header>
   );
 };
